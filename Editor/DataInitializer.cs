@@ -20,7 +20,7 @@ public class DataInitializer : EditorWindow {
 			Debug.Log (AssetDatabase.CopyAsset("Assets/StreamingAssets/MasterData.txt","Assets/Resources/MasterData.txt"));
 			AssetDatabase.DeleteAsset("Assets/Resources/GameData.txt");
 			Debug.Log (AssetDatabase.CopyAsset("Assets/StreamingAssets/GameData.txt","Assets/Resources/GameData.txt"));
-
+			AssetDatabase.Refresh();
 		}
 	}
 

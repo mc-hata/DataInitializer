@@ -5,3 +5,4 @@ Assetsフォルダ内にEditorフォルダを作成し、DataInitializer.csを�
 メニューバーにDataInitializerが現れるのでDataInitializer->Initializerを選択しウィンドウを表示して下さい<br>
 ウィンドウ内のInitializerボタンをクリックするとStreamingAssetsフォルダ内のMasterData.txtとGameData.txtが<br>
 Resourcesフォルダ内のMasterData.txtとGameData.txtに上書きされます。<br>
+Projectビュー内に反映されるのに、10秒程度時間がかかります。
